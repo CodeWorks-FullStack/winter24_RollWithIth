@@ -14,7 +14,7 @@ export class CharactersController {
     this.drawCharacters()
   }
 
-  // REVIEW Step 5 - Draw the data
+  // REVIEW Step 6 - Draw the data
 
   drawCharacters() {
     let charsElm = document.getElementById('characters')
@@ -28,7 +28,7 @@ export class CharactersController {
       </p>`
     }
   }
-  // REVIEW Step 6 - Add interaction
+  // REVIEW Step 7 - Add interaction
 
   increaseOrder(characterName) {
     console.log("chagning order", characterName)

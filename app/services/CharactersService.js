@@ -1,7 +1,7 @@
 import { AppState } from "../AppState.js";
 
 
-// REVIEW Step 6 - Change the data in your service
+// REVIEW Step 8 - Change the data in your service
 class CharactersService {
   increaseOrder(characterName) {
     console.log('service time', characterName);
